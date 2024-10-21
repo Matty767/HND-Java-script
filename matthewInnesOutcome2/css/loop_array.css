@@ -1,0 +1,53 @@
+#container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(34, 197, 209);
+}
+
+label {
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+#menuselect {
+
+    padding: 1rem;
+}
+
+select option {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(97, 92, 92);
+}
+
+#rst {
+    padding: 1rem;
+    border: none;
+    margin: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    background-color: #212e42;
+    color: #fff;
+    letter-spacing: .2rem;
+}
+
+#rst:hover {
+
+    background-color: #929497;
+    color: rgb(0, 0, 0);
+}
+
+#msgout {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}

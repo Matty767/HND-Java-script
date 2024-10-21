@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(135, 163, 240);
+}
+
+#amount,
+#vat,#total {
+    width: 200px;
+    padding: 1rem;
+}
+
+label {
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+#calcbtn, #reset {
+
+    padding: 1rem;
+    border: none;
+    margin: .7rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    background-color: #e9daab;
+}
+
+#calcbtn:hover,
+#reset:hover {
+
+    background-color: #c2ad70;
+    color: #fff
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(135, 163, 240);
+}
+
+P {
+    padding: .5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+
+}
+
+#genbtn {
+    height: 150px;
+    line-height: 80px;
+    width: 150px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #27a542;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+#genbtn:hover {
+
+    background-color: #71d61e;
+}
+
+#counter_output,
+#rand_num {
+
+    color: rgb(247, 17, 17);
+}
+
+#reset {
+
+    padding: 1rem;
+    border: none;
+    margin: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    background-color: #4b74b1;
+    color: #fff;
+    letter-spacing: .2rem;
+
+}
+
+#reset:hover {
+
+    background-color: #0a3b80;
+}
+
+p:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

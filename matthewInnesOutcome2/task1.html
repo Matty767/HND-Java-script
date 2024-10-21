@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calcvat_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Calculate VAT</title>
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <label for="amount">Amount in £'s:</label>
+        <input type="text" id="amount" class="details" name="amount">
+        <span id="amountError" class="error"></span> <!-- Error message display -->
+
+        <label for="vat">VAT @ 22%:</label>
+        <input type="text" id="vat" class="details" name="vat" readonly>
+
+        <label for="total">GRAND TOTAL:</label>
+        <input type="text" id="total" class="details" name="total" readonly>
+
+        <button type="button" id="calcbtn">CALCULATE VAT</button>
+        <button type="button" id="reset">RESET</button>
+    </div>
+
+    <script src="js/calcvat_script.js"></script>
+</body>
+
+</html>
